@@ -22,11 +22,12 @@ h3
     border: none;
     border-radius: 06px;
     font-size: 12pt;
-    width: 30%;
+    /*width: 30%;*/
     font-family: 'Open Sans', sans-serif;
     position: relative;
+    top: 15px;
     left: 36%;
-    transform: translate(-50%);
+    /*transform: translate(-50%);*/
     text-decoration: none;
 }
 input:hover
@@ -50,6 +51,11 @@ img
     {
         width: 35%;
     }
+    .botao
+    {
+        top: 20px;
+        left: 40%;
+    }
 }
 /*RESPONSIVIDADE PARA TABLETS*/
 @media (min-width: 539px) and (max-width: 913px)
@@ -61,5 +67,24 @@ img
     input
     {
         width: 20%;
+    }
+    .botao
+    {
+        top: 15px;
+        left: 45%;
+    }
+}
+@media (min-width: 540px) and (max-width: 721px)
+{
+    .botao
+    {
+        left: 43%;
+    }
+}
+@media (min-width: 911px) and (max-width: 913px)
+{
+    .botao
+    {
+        left: 46%;
     }
 }

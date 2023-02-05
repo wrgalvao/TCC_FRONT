@@ -55,9 +55,10 @@ form
 .botao
 {
   position: relative;
-  left: 47%;
-  transform: translate(-50%, 0%);
-  width: 250px;
+  top: 15px;
+  left: 44%;
+  /*transform: translate(-50%, 0%);*/
+  /*width: 250px;*/
   background-color: rgba(120,191,58,1);
   padding: 10px;
   border-radius: 06px;
@@ -67,8 +68,8 @@ form
   border: none;
   font-weight: bold;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  /*margin-top: 20px;*/
+  /*margin-bottom: 10px;*/
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
 }
@@ -172,8 +173,11 @@ p
   
   .botao
   {
+    position: relative;
+    left: 42%;
+
     width: 25%;
-    margin-top: 0px;
+    margin-top: 35px;
     transform: translate(-40%, 0%);
   }
   .container p

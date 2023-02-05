@@ -32,21 +32,22 @@ body
 }
 .botao
 {
-  margin-left: 0px;
-  margin-right: 0px;
   background-color: rgba(120,191,58,1);
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 18px;
+  padding-right: 18px;
   border-radius: 06px;
   color: white;
   font-size: 10pt;
   border: none;
   font-weight: bold;
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
 }
 #botoes
 {
+  padding-top: 05px;
   text-align: center;
 }
 img#LOGO
@@ -81,6 +82,10 @@ form
   }
   .botao
   {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     font-size: 07pt;
   }
 }
