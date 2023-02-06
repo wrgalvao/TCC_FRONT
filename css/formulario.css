@@ -6,18 +6,18 @@
   transform: translate(-74%, -0%);
   width: 120px;
 }
+/*
 #coluna-1
 {
   width: 50%;
-  /*margin-right: 40px;*/
 
 }
+
 #coluna-2
 {
   width: 50%;
-  /*margin-left: 40px;*/
-
 }
+*/
 .cabecalho
 {
   border-bottom: 1px black solid;
@@ -92,6 +92,8 @@ form
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: 5px;
   margin-right: 5px;
 }
