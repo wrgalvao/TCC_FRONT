@@ -141,6 +141,7 @@ p
   {
     font-size: 07pt;
   }
+  /*
   #coluna-1
   {
     margin-right: 5px;
@@ -149,6 +150,7 @@ p
   {
     margin-left: 5px;
   }
+  */ 
   .labelInputRadio
   {
     font-size: 07pt;
@@ -164,6 +166,10 @@ p
   .container-opcao
   {
     margin-bottom: 23px;
+  }
+  .container-opcoes
+  {
+    justify-content: center;
   }
   .campoTexto
   {
