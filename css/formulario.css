@@ -44,10 +44,7 @@ form
 }
 .container-opcoes
 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
+
 }
 .botao
 {
@@ -85,10 +82,9 @@ form
 }
 .container-opcao
 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  display: block;
   justify-content: center;
+  text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 5px;
@@ -100,6 +96,7 @@ form
 }
 .labelInputRadio
 {
+  display: block;
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
 }
