@@ -33,13 +33,16 @@
 }
 form
 {
-  width: 900px;
-  margin: auto;
   font-size: 10pt;
   font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 #paginaFormulario
 {
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -56,7 +59,7 @@ form
 {
   position: relative;
   top: 15px;
-  left: 44%;
+  left: 0%;
   /*transform: translate(-50%, 0%);*/
   /*width: 250px;*/
   background-color: rgba(120,191,58,1);
@@ -104,6 +107,7 @@ form
 .labelInputRadio
 {
   font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
 }
 p
 {
@@ -172,12 +176,10 @@ p
     width: 160px;
     margin-bottom: 0px;
   }
-  
   .botao
   {
     position: relative;
-    left: 42%;
-
+    left: -10%;
     width: 25%;
     margin-top: 35px;
     transform: translate(-40%, 0%);
