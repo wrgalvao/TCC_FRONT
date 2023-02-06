@@ -3,18 +3,20 @@
 <head>
   <link rel="shortcut icon" href="IMAGENS/logo unifesspa_transparente.svg" type="image/x-icon">
   <link rel="stylesheet" href="../css/formulario.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <title>Formulário de Avaliação</title>
 </head>
-<header class="cabecalho">
-  <img id="logoUnifesspa" src="../img/LOGO UNIFESSPA.png" alt="logo Unifesspa">
-  <h3>AVALIE NOSSO REFEITÓRIO</h3>
-</header>
+
 <body>
-<form action="../formulario.php" method="POST" class="columns is-mobile is-centered">
-  <div id="coluna-1" class="column is-narrow">
+  <header class="cabecalho">
+    <img id="logoUnifesspa" src="../img/LOGO UNIFESSPA.png" alt="logo Unifesspa">
+    <h3>AVALIE NOSSO REFEITÓRIO</h3>
+  </header>
+<form action="../formulario.php" method="POST">
+<div>
+  <div class="columns is-mobile is-centered">
+    <div id="coluna-1" class="column is-narrow">
       <p class="tituloInputRadio">PRATO PRINCIPAL</p>
       <div class="container-opcoes columns is-mobile">
         <div class="container-opcao column is-narrow">
@@ -141,7 +143,6 @@
 
   </div>
   <div id="coluna-2" class="column is-narrow">
-
     <p class="tituloInputRadio">DIGA-NOS O QUE VOCÊ ACHOU DO <br> VALOR DA REFEIÇÃO</p>
     <div class="container-opcoes columns is-mobile">
 
@@ -229,8 +230,13 @@
     </div>
   </div>
   <br>
-  <a href="confirmacaoAvaliacao.html" class="botao">ENVIAR</a>
+  </div>
+  
 <!--<input type="submit" name="submit" id="submit" value="ENVIAR" class="botao">-->
+</div>
+<div class="center">
+  <a href="confirmacaoAvaliacao.html" class="botao">ENVIAR</a>
+</div>
 </form>
 </body>
 </html>
