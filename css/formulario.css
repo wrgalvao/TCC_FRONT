@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
 html, body
 {
   margin: 0px;
@@ -28,7 +29,7 @@ html, body
 {
   position: relative;
   left: 50%;
-  transform: translate(-74%, -0%);
+  transform: translate(-58%, -0%);
   width: 120px;
 }
 .cabecalho
@@ -52,6 +53,8 @@ form
 }
 .botao
 {
+  display: block;
+  margin: auto;
   background-color: rgba(120,191,58,1);
   padding: 10px;
   border-radius: 06px;
@@ -139,11 +142,11 @@ p
   
   #coluna-1
   {
-    margin-right: 5px;
+    margin-right: 1px;
   }
   #coluna-2
   {
-    margin-left: 5px;
+    margin-left: 1px;
   } 
   .labelInputRadio
   {

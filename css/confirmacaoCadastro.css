@@ -22,12 +22,10 @@ h3
     border: none;
     border-radius: 06px;
     font-size: 12pt;
-    /*width: 30%;*/
     font-family: 'Open Sans', sans-serif;
     position: relative;
     top: 15px;
-    left: 36%;
-    /*transform: translate(-50%);*/
+    left: 41%;
     text-decoration: none;
 }
 input:hover
