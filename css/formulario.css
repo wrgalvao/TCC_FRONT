@@ -173,13 +173,17 @@ body
   
   #campoDeSugestao
   {
-    height: 134px;
+    height: 142px;
     width: 160px;
     margin-bottom: 0px;
   }
   .container p
   {
     font-size: 07pt;
+  }
+  #titulo-container
+  {
+    margin-bottom: 5px;
   }
 }
 /*RESPONSIVIDADE PARA TABLETS IPAD AIR/ IPAD MINI/ SURFACE PRO 7*/
@@ -199,8 +203,12 @@ body
   }
   #campoDeSugestao
   {
-    height: 160px;
+    height: 155px;
     margin-bottom: 0px;
+  }
+  #titulo-container
+  {
+    margin-bottom: 5px;
   }
 }
 /*RESPONSIVIDADE PARA TABLET SURFACE DUO*/
@@ -229,7 +237,7 @@ body
   #campoDeSugestao
   {
     width: 220px;
-    height: 134px;
+    height: 150px;
     margin-bottom: 0px;
   }
   #logoUnifesspa
@@ -240,5 +248,9 @@ body
   {
     margin-top: 7px;
     width: 15%;
+  }
+  #titulo-container
+  {
+    margin-bottom: 5px;
   }
 }
